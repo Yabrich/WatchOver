@@ -1,0 +1,124 @@
+api: Spigot
+name: WatchOver
+version: "Open Beta 1.0"
+author: Yabrich
+main: fr.yabrich.watchover.Main
+commands:
+  test:
+    description: Commande test
+    permission: woy.test.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  spawn:
+    description: Teleportation au spawn
+    permission: woy.spawn.use
+  watchover:
+    description: Menu de moderation
+    permission: woy.watchover.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+    aliases: [wo]
+  spycmd:
+    description: Vision des commandes en temps réel
+    permission: woy.spycmd.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+    aliases: [cmdspy]
+  invsee:
+    description: Voir et modifier l'inventaire d'un joueur spécifié
+    permission: woy.invsee.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  s:
+    description: Téléporte un joueur ciblé à soit
+    permission: woy.s.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  vanish:
+    description: Rend invisible des autres joueurs
+    permission: woy.vanish.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  staffvanish:
+    description: Rend invisible des autres staffs
+    permission: woy.staffvanish.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+    aliases: [sv]
+  id:
+    description: Renvoie l'ID de l'item dans la main
+    permission: woy.id.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  msgco:
+    description: Active les messages de connexion
+    permission: woy.msgco.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  nv:
+    description: Donne un effet de vision nocturne permanant
+    permission: woy.nv.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+    aliases: [nightvision]
+  freeze:
+    description: Immobilise un joueur
+    permission: woy.freeze.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  alert:
+    description: Envoie un message staff au joueur
+    permission: woy.alert.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  playerxyz:
+    description: Renvoie les coordonnées exactes d'un joueur
+    permission: woy.playerxyz.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  warn:
+    description: Avertie un joueur
+    permission: woy.warn.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  warnlist:
+    description: Affiche la liste des avertissements
+    permission: woy.warnlist.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  helpme:
+    description: Envoie un message aux staffs connectés
+    permission: woy.helpme.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  ans:
+    description: Repond à un joueur en spécifié
+    permission: woy.helpme.ans
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  report:
+    description: Envoie un signalement aux staffs connectés
+    permission: woy.report.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  chatclear:
+    description: Supprime le chat
+    permission: woy.chatclear.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+    aliases: [cc]
+  chat:
+    description: Modération Chat
+    permission: woy.chatmod.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  mute:
+    description: Réduire au silence un joueur
+    permission: woy.mute.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  unwarn:
+    description: Supprime l'avertissement d'un joueur
+    permission: woy.unwarn.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  unmute:
+    description: Redonne la parole à un joueur
+    permission: woy.unmute.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  staffchat:
+    description: Parler en chat staff
+    permission: woy.staffchat.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+    aliases: [sc]
+  ban:
+    description: Banni un joueur
+    permission: woy.ban.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  unban:
+    description: Unban un joueur
+    permission: woy.unban.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+  hist:
+    description: Affiche l'historique de sanction d'un joueur
+    permission: woy.hist.use
+    permission-message: §4Vous n'avez pas la permission d'effectuer cette commande !
+    aliases: [history]
